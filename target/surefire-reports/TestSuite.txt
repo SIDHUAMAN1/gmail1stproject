@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 155.359 s <<< FAILURE! - in TestSuite
+setUp(com.gmail.qa.testcases.HomePageTest)  Time elapsed: 25.9 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b3ecf3f905c5bcd39dd39ea5272078b, clickElement {id=E1834DE2426AB302175100BC111B6638_element_9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.114, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/zv/w7_2m6mj0b1...}, goog:chromeOptions: {debuggerAddress: localhost:57493}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57493/devtoo..., se:cdpVersion: 115.0.5790.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (8b3ecf3f905c5bcd39dd39ea5272078b)] -> xpath: //span[text()='Next']]
+Session ID: 8b3ecf3f905c5bcd39dd39ea5272078b
+	at com.gmail.qa.testcases.HomePageTest.setUp(HomePageTest.java:36)
+
